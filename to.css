@@ -1,0 +1,95 @@
+body{
+    /* background-color: rgb(16, 78, 78);*/
+    background-image: url(https://wallpapers.com/images/featured/black-wuuaobghtdllhliu.jpg);
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+ }
+ 
+ .container{
+      width: 370px;
+      padding: 30px;
+      text-align: center;
+     /* background-color: beige;*/
+      margin-left: 33%;
+      margin-top: 5px;
+     /* border: 1px solid blanchedalmond;*/
+      box-shadow: 30px 20px 21px rgb(0, 0, 0,0.21),
+     12px 12px 60px rgba(0, 0, 0, 0.22),
+     inset 5px 6px 11px rgba(0, 0, 0, 0.21),
+     inset 5px 4px 21px rgba(254, 254, 254, 0.2),
+     inset -5px -5px 14px rgba(0, 0, 0, 0.74);
+      border-radius: 40px;
+      margin-top: 300pt;
+      margin-right: 300px;
+      margin-left: 900px;
+ }
+ h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(160, 172, 173);
+    justify-content: center;
+    align-items: center;
+ }
+ h1:hover{
+    color: rgb(52, 56, 56);
+}
+
+ input{
+     width: 260px;
+     padding: 6px;
+     border: 2px solid rgb(154, 170, 173);
+     border-radius: 6px;
+     outline: none;
+     font-family: 'Times New Roman', Times, serif;
+     box-shadow: 30px 20px 21px rgb(0, 0, 0,0.21),
+     12px 12px 60px rgba(0, 0, 0, 0.22),
+     inset 5px 6px 11px rgba(0, 0, 0, 0.21),
+     inset 5px 4px 21px rgba(254, 254, 254, 0.2),
+     inset -5px -5px 14px rgba(0, 0, 0, 0.74);
+ }
+ input:hover{
+        background-color: rgb(233, 238, 238);
+ }
+ button{
+      width: 67px;
+      height: 35px;
+      border: 2px solid rgb(137, 137, 158);
+      border-radius: 6px;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: initial;
+      font-weight: 20px;
+      cursor: pointer;
+      box-shadow: 30px 20px 21px rgb(0, 0, 0,0.21),
+      12px 12px 60px rgba(0, 0, 0, 0.22),
+      inset 5px 6px 11px rgba(0, 0, 0, 0.21),
+      inset 5px 4px 21px rgba(254, 254, 254, 0.2),
+      inset -5px -5px 14px rgba(0, 0, 0, 0.74);
+ }
+ button:hover{
+     background-color: rgb(233, 238, 238);
+ }
+ .text ul{
+     position: relative;
+     background-color: rgb(107, 114, 114);
+     box-shadow: 30px 20px 21px rgb(0, 0, 0,0.21),
+      12px 12px 60px rgba(0, 0, 0, 0.22),
+      inset 5px 6px 11px rgba(0, 0, 0, 0.21),
+      inset 5px 4px 21px rgba(254, 254, 254, 0.2),
+      inset -5px -5px 14px rgba(0, 0, 0, 0.74);
+     color: azure;
+     font-size: 18px;
+     text-align: left;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 19px;
+     padding: 7px;
+     margin: 30px;
+    justify-content: center;
+ }
+ .text ul i{
+     position: absolute;
+     right: 10px;
+     cursor: pointer;
+ 
+ }
